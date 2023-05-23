@@ -12,7 +12,7 @@ namespace Bulky.Models
         [DisplayName("Category Name")]
         public string Name { get; set; }
         [DisplayName("Display Order")]
-        [Range(1,100, ErrorMessage="Display..........")]
+        [Range(1, 100, ErrorMessage = "Display..........")]
         public int DisplayOrder { get; set; }
 
 
